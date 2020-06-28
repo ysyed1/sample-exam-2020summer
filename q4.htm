@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <link href="instructions.css" rel="stylesheet" type="text/css">
+  <title>WebTech Exam - Q4</title>
+  <script>
+    const shapes = ['C', 'D', 'H', 'S'];
+    const values = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K'];
+  </script>
+</head>
+<body>
+  <h1>Yet Another Blackjack</h1>
+  <div id="question-body">
+    <p>In this version of Blackjack, the player always deals three cards. When the button is clicked, the page should be
+      updated replacing the three cards with three random cards facing up. The card images for each value/shape are
+      inside 'images' folder. When player's hand (which is the sum of three cards' values) exceeds 21, the paragraph
+      above button should show "You are Busted", otherwise it should show "You are Not Busted". The value of cards two
+      through ten is their pip value (2 through 10). Face cards (Jack, Queen, and King) are all worth ten. To simplify
+      this game, Ace is worth one. </p>
+    <div class="question-second">
+      <img alt="card-1" height="100" src="images/green_back.png">
+      <img alt="card-2" height="100" src="images/green_back.png">
+      <img alt="card-3" height="100" src="images/green_back.png">
+      <p id="result">You are Not Busted.</p>
+      <button>Hit</button>
+    </div>
+  </div>
+</body>
+</html>

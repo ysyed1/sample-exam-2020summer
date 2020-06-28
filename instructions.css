@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#question-body {
+  width: 70%;
+  margin: 10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#question-body div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#number {
+  font-size: 35px;
+  font-family: "Comic Sans MS", serif;
+}
+
+.red {
+  color: red;
+}
+
+p#result {
+  font-size: xx-large;
+}
+
+.question-second {
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.question-second img {
+  margin: 15px 20px 0;
+}
+
+button {
+  width: 150px;
+  font-size: large;
+}
