@@ -8,7 +8,7 @@
   <title>WebTech Exam - Q2</title>
 </head>
 <body>
-  <h1>Gordon Hayward</h1>
+  <h1 id="heading">Gordon Hayward</h1>
   <div id="question-body">
     <p id="instruction">Please create <strong>one</strong> function to do the following: (a) when user clicks on first
       picture, h1 must be
@@ -24,14 +24,39 @@
 
   <script> 
 
-  function changeGordon(){
-    
-    
+    function change(x){
 
+    const serious = document.getElementById("serious");
+    const smiling = document.getElementById("smiling");
+    const heading = document.getElementById("heading");
+
+    if (x === "serious"){
+      smiling.style.display = "none";
+      heading.innerHTML = "Gordon Hayward is Serious";
+    } else if (x === "smiling"){
+      serious.style.display = "none";
+      heading.innerHTML = "Gordon Hayways is Smiling";
+    } else if (x === "heading") {
+      serious.style.display = "inline";
+      smiling.style.display = "inline";
+      heading.innerHTML = "Let's Go, Celtics!";
+    }
   }
-  
-  
-  
+
+      document.getElementById("serious").onclick = function () {
+            change(this.id);
+
+        };
+
+      document.getElementById("smiling").onclick = function () {
+            change(this.id);
+
+        };
+
+      document.getElementById("heading").ondblclick = function () {
+            change(this.id);
+
+        };
   
   </script>
 </body>

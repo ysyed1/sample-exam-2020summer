@@ -6,12 +6,9 @@
   <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
   <title>WebTech Exam - Q1</title>
 
+  <link rel="stylesheet" type="text/css" href="nav.css">
+
   <style>
-
-    img {
-        height: 100px;
-
-    }
 
     table, td, th {
         border: 1px solid gray;
@@ -20,10 +17,9 @@
     }
 
     table {
-        width: 70%;
-        height: 60%;
-        position: relative;
-        left: 13%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         border-collapse: collapse;
         padding: 30px 30px 20px 150px;
         text-align: center;
@@ -36,71 +32,15 @@
         text-align: center;
     }
 
-    ul {
-      list-style-type: none;
-
-    }
-
-    ul#nav li {
-      display: inline;
-
-    }
-
-    a {
-        padding: 14px 16px;
-        text-decoration: none;       
-        text-transform: uppercase;
-     
-      }
-
-      a:link{
-        color: white;
-
-      }
-
-      a:visited{
-        color: white;
-
-      }
-
-      a:hover {
-        color: white;
-
-      }
-      
-      a:active {
-        color: white;
-
-      }
-
-    #header {
-      position: relative;
-      right: 0;
-      top: 0;
-      width: 100%;
-      background-color: green;
-
-    }
-
-    #DALlogo {
-      height: 60px;
-
-    }
-
-    #WASlogo {
-      height: 60px;
-
-    }
-
-
   </style>
+
 </head>
 <body>
 
   <div id="header">
 
   <ul id="nav">
-    <li><img src="images/celtics.svg" alt="celticslogo" title="celticslogo"/></li>
+    <li><img src="images/celtics.svg" alt="celticslogo" title="celticslogo" id="celticslogo"/></li>
     <li><a href="index.htm">Schedule</a></li>
     <li><a href="q2.htm">GORDON</a></li>
     <li><a href="q3.htm">COUNTING DOWN</a></li>
